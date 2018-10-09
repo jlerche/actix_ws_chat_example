@@ -1,0 +1,12 @@
+[package]
+name = "websocket_load_test"
+version = "0.1.0"
+authors = ["Jacob Lerche <jacob.lerche@hpe.com>"]
+
+[dependencies]
+futures = "0.1"
+env_logger = "*"
+
+actix = "0.7"
+actix-web = "0.7"
+actix-broker = "0.1"
